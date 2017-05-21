@@ -84,7 +84,7 @@ button {
 
 #image-1 {
   height: 100vh;
-  min-width: 100%;
+  max-width: 100%;
   overflow: hidden;
   position: absolute;
   object-fit: cover;
