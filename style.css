@@ -1,0 +1,124 @@
+/*BASE STLYLES*/
+* {
+  /*margin: 0;*/
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  color: white;
+}
+
+nav {
+  height: 100vh;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font:family: 'Open Sans', sans-serif;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*SQUARES sizing*/
+.squares {
+  height: 33.333vh;
+}
+/*SQUARES CONTENTS*/
+.contents {
+  position: absolute;
+  width: 95%;
+  padding-top: 30%;
+  padding-left: 5%;
+}
+/*WIDE SQUARE*/
+.wide {
+  position: relative;
+  width: 66.6666%;
+}
+
+.wide-tile {
+  display: inline-block;
+  position: absolute;
+  width: 90%;
+  padding: 7%;
+}
+
+.wide p {
+  text-align: left;
+}
+
+
+/*regular SQUARES */
+.normal {
+  position: relative;
+  text-align: center;
+  width: 33.3333%;
+}
+
+#slideshow-section {
+  height: 100vh;
+  width: 40%;
+  position: relative;
+}
+
+#image-1 {
+  height: 100vh;
+  min-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*COLORS FOR THE SQUARES*/
+
+.wide-tile>h1,
+.wide-tile>p {
+  color: gray;
+}
+
+.black {
+  background-color: #050505;
+}
+
+.gold {
+  background-color: #F5C217;
+}
+
+.teal {
+  background-color: #6EC8BE;
+}
+
+.red {
+  background-color: #E32A28;
+}
