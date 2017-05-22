@@ -1,17 +1,20 @@
 /*BASE STLYLES*/
 * {
-  /*margin: 0;*/
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   color: white;
+  width: 100%;
+  height: 100%;
 }
 
 nav {
   height: 100vh;
-  width: 55%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -46,20 +49,18 @@ button {
 }
 /*SQUARES CONTENTS*/
 .contents {
-  position: absolute;
+  /*position: absolute;*/
   width: 95%;
   padding-top: 30%;
   padding-left: 5%;
 }
 /*WIDE SQUARE*/
 .wide {
-  position: relative;
   width: 66.6666%;
 }
 
 .wide-tile {
   display: inline-block;
-  position: absolute;
   width: 90%;
   padding: 7%;
 }
@@ -71,7 +72,6 @@ button {
 
 /*regular SQUARES */
 .normal {
-  position: relative;
   text-align: center;
   width: 33.3333%;
 }
@@ -79,16 +79,21 @@ button {
 #slideshow-section {
   height: 100vh;
   width: 40%;
-  position: relative;
+  background-image: url("assets/RTJ2_press-photo-new-sept-2014-Portrait.jpg");
+  /*background-image: url(assets/rtj-killer-mike-el-pHQfullscreen.jpeg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 
-#image-1 {
+/*#image-1 {
   height: 100vh;
   max-width: 100%;
   overflow: hidden;
   position: absolute;
   object-fit: cover;
-}
+}*/
 
 
 
