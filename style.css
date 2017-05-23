@@ -117,11 +117,14 @@ nav {
   width: 100%;
   align-items: baseline;
 }
+.normal {
+  width: 50%;
+}
 #main1 {
   order: -1;
   width:100%;
-  align-items: stretch;
-  height:60%;
+  /*align-items: stretch;*/
+  height:40%;
 
 }
 #portrait-image-section {
