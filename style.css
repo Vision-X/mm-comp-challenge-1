@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'BioRhyme', serif;
   display: flex;
   color: black;;
   width: 100%;
@@ -19,17 +19,14 @@ nav {
   flex-wrap: wrap;
 }
 
-h1 {
-  font:family: 'Open Sans', sans-serif;
-}
 
 button {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'BioRhyme', serif;
   font-size: 14px;
-  border: 2px solid #ffffff;
+  border: 2px solid gray;
   background-color: transparent;
-  color: white;
-  padding: 10px;
+  color: gray;
+  padding: 10px 5px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -66,6 +63,7 @@ button {
 
 /*regular SQUARES */
 .normal {
+  display: flex;
   text-align: center;
   width: 33.3333%;
 }
@@ -78,7 +76,9 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
+}
+#portrait-image-section {
+  display:none;
 }
 
 
@@ -91,7 +91,7 @@ button {
 
 .black {
   background-color: #050505;
-  color: grey;
+  color: gray;
 }
 
 .gold {
@@ -105,4 +105,40 @@ button {
 
 .red {
   background-color: #E32A28;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+#slideshow-section {
+  display: none;
+}
+nav {
+  width: 100%;
+  align-items: baseline;
+}
+#main1 {
+  order: -1;
+  width:100%;
+  align-items: stretch;
+  height:60%;
+
+}
+#portrait-image-section {
+  display: block;
+  height: 50vh;
+  /*height: 40%;*/
+  width: 100%;
+  order: -2;
+  background-image: url("assets/run-the-jewels-tiny-desk-concert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-content: stretch;
+}
+#portfolio8 {
+  width: 100%;
+}
+
+
 }
