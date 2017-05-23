@@ -108,7 +108,7 @@ button {
 }
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
 
 #slideshow-section {
   display: none;
@@ -117,9 +117,7 @@ nav {
   width: 100%;
   align-items: baseline;
 }
-.normal {
-  width: 50%;
-}
+
 #main1 {
   order: -1;
   width:100%;
@@ -144,4 +142,13 @@ nav {
 }
 
 
+}
+
+
+
+@media screen and (max-width: 764px) {
+
+
+.normal {
+  width: 50%;
 }
